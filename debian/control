@@ -1,0 +1,12 @@
+Source: ros-hydro-range-sensor-layer
+Section: misc
+Priority: extra
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-angles, ros-hydro-catkin, ros-hydro-costmap-2d, ros-hydro-pluginlib, ros-hydro-roscpp, ros-hydro-sensor-msgs
+Homepage: http://wiki.ros.org/range_sensor_layer
+Standards-Version: 3.9.2
+
+Package: ros-hydro-range-sensor-layer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-angles, ros-hydro-costmap-2d, ros-hydro-pluginlib, ros-hydro-roscpp, ros-hydro-sensor-msgs
+Description: range_sensor_layer
