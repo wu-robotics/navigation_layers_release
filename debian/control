@@ -1,0 +1,12 @@
+Source: ros-indigo-range-sensor-layer
+Section: misc
+Priority: extra
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-angles, ros-indigo-catkin, ros-indigo-costmap-2d, ros-indigo-pluginlib, ros-indigo-roscpp, ros-indigo-rospy, ros-indigo-sensor-msgs
+Homepage: http://wiki.ros.org/range_sensor_layer
+Standards-Version: 3.9.2
+
+Package: ros-indigo-range-sensor-layer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-angles, ros-indigo-costmap-2d, ros-indigo-pluginlib, ros-indigo-roscpp, ros-indigo-rospy, ros-indigo-sensor-msgs
+Description: Navigation Layer for Range sensors like sonar and IR
