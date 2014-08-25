@@ -8,7 +8,9 @@ find_package(catkin REQUIRED COMPONENTS
   sensor_msgs
   pluginlib)
 
-catkin_package()
+catkin_package(
+CATKIN_DEPENDS sensor_msgs
+)
 
 include_directories(include ${catkin_INCLUDE_DIRS})
 
@@ -23,3 +25,6 @@ install(FILES costmap_plugins.xml
     DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
     )
 
+install(PROGRAMS scripts/send_message.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+  
