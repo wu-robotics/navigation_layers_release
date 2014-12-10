@@ -1,0 +1,12 @@
+Source: ros-indigo-navigation-layers
+Section: misc
+Priority: extra
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-navigation-layers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-range-sensor-layer
+Description: Extra navigation layers.
