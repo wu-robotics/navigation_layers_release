@@ -1,3 +1,29 @@
+## navigation_layers (jade) - 0.3.1-0
+
+The packages in the `navigation_layers` repository were released into the `jade` distro by running `/usr/bin/bloom-release navigation_layers --track jade --rosdistro jade --new-track` on `Sun, 24 Apr 2016 19:44:47 -0000`
+
+These packages were released:
+- `navigation_layers`
+- `range_sensor_layer`
+- `social_navigation_layers`
+
+Version of package(s) in repository `navigation_layers`:
+
+- upstream repository: https://github.com/DLu/navigation_layers.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.3.1-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.38`
+
+
 ## navigation_layers (indigo) - 0.3.1-0
 
 The packages in the `navigation_layers` repository were released into the `indigo` distro by running `/usr/bin/bloom-release navigation_layers --track indigo --rosdistro indigo` on `Sun, 24 Apr 2016 19:38:45 -0000`
