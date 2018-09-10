@@ -1,3 +1,29 @@
+## navigation_layers (melodic) - 0.5.0-0
+
+The packages in the `navigation_layers` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -r melodic navigation_layers` on `Mon, 10 Sep 2018 14:38:49 -0000`
+
+These packages were released:
+- `navigation_layers`
+- `range_sensor_layer`
+- `social_navigation_layers`
+
+Version of package(s) in repository `navigation_layers`:
+
+- upstream repository: https://github.com/DLu/navigation_layers.git
+- release repository: https://github.com/wu-robotics/navigation_layers_release.git
+- rosdistro version: `0.4.2-0`
+- old version: `0.4.2-0`
+- new version: `0.5.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.6`
+- catkin_pkg version: `0.4.6`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## navigation_layers (melodic) - 0.4.2-0
 
 The packages in the `navigation_layers` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -r melodic navigation_layers --edit` on `Thu, 06 Sep 2018 13:28:55 -0000`
