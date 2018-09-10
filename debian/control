@@ -1,0 +1,12 @@
+Source: ros-melodic-range-sensor-layer
+Section: misc
+Priority: extra
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-angles, ros-melodic-catkin, ros-melodic-costmap-2d, ros-melodic-dynamic-reconfigure, ros-melodic-geometry-msgs, ros-melodic-pluginlib, ros-melodic-roscpp, ros-melodic-roslint, ros-melodic-rospy, ros-melodic-sensor-msgs
+Homepage: http://wiki.ros.org/range_sensor_layer
+Standards-Version: 3.9.2
+
+Package: ros-melodic-range-sensor-layer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-angles, ros-melodic-costmap-2d, ros-melodic-dynamic-reconfigure, ros-melodic-geometry-msgs, ros-melodic-pluginlib, ros-melodic-roscpp, ros-melodic-rospy, ros-melodic-sensor-msgs
+Description: Navigation Layer for Range sensors like sonar and IR
