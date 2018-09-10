@@ -1,6 +1,6 @@
 <package format="2">
   <name>range_sensor_layer</name>
-  <version>0.4.2</version>
+  <version>0.5.0</version>
   <description>
      Navigation Layer for Range sensors like sonar and IR
   </description>
@@ -16,10 +16,12 @@
   <depend>angles</depend>
   <depend>costmap_2d</depend>
   <depend>dynamic_reconfigure</depend>
+  <depend>geometry_msgs</depend>
   <depend>pluginlib</depend>
   <depend>roscpp</depend>
   <depend>rospy</depend>
   <depend>sensor_msgs</depend>
+  <test_depend>roslint</test_depend>
 
   <export>
     <costmap_2d plugin="${prefix}/costmap_plugins.xml"/>
